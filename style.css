@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  } 
+.nav-img{
+    width: 90px;
+}
+a{
+    font-size: 1.2em;
+}
+.formCss{
+    width: 600px;
+}
+/* .meal-input */
