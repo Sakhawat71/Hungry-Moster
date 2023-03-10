@@ -12,3 +12,12 @@ a{
 .formCss{
     width: 600px;
 }
+.card{
+    width: 18rem;
+    border-radius: 10px;
+};
+
+#meal-fullInfo{ 
+    text-decoration: none;
+    color: black;
+}
