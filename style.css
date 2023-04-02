@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.nav-img{
+    width: 90px;
+}
+a{
+    font-size: 1.2em;
+} 
+#search-input{
+    width: 350px;
+    height: 45px;
+}
+.every-item {
+    
+}
+#show-search-item a{
+    border: 1px solid black;
+}
