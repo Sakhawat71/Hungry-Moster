@@ -13,9 +13,13 @@ a{
     width: 350px;
     height: 45px;
 }
-.every-item {
-    
+
+.search-div{
+    padding-left: 0%;
+    padding-right: 0%;
 }
-#show-search-item a{
+
+/* #show-search-item , #show-search-item a{
     border: 1px solid black;
-}
+    padding: 5px;
+} */
