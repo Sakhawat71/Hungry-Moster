@@ -86,9 +86,8 @@ const showMealDetails = mealsingel =>{
 
         const ingredientsP = document.createElement('p');
         ingredientsP.innerText = ingredients;
+        ingredientsP.classNamme = 'card-text';
         mealIngredients.appendChild(ingredientsP);
     }
-    const x = meal.strIngredient1;
-    const y = meal.strMeasure1;
-    console.log(y,x);
+
 };
