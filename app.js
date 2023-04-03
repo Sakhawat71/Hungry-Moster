@@ -32,8 +32,8 @@ const displayMealItem = meals =>{
 
         const mealInfo = `
         <a href="">
-        <div class="card cursor shadow">
-          <img class="card-pic" style="width: 250px; height: 200px; border-radius: 10px 10px 0 0" src="${mealPic}">
+        <div class="card cursor costom-card shadow">
+          <img class="card-pic" style="width: 260px; height: 200px; border-radius: 10px 10px 0 0" src="${mealPic}">
           <div class="card-body">
             <h5 class="card-title text-center">${mealName}</h5>
           </div>

@@ -18,6 +18,17 @@ a{
     padding-left: 0%;
     padding-right: 0%;
 }
+.search-div a{
+    text-decoration: none;
+    color: black;
+}
+
+.costom-card{
+    width: 262px;
+}
+.card-body{
+    background-color: #F8F7F5;
+}
 
 /* #show-search-item , #show-search-item a{
     border: 1px solid black;
