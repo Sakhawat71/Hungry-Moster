@@ -77,10 +77,17 @@ const showMealDetails = mealsingel =>{
   </div>
     `;
 
-    const Ingredients = document.getElementById("meal-ingredients");
-    // meal.forEach(element => {
-    //     console.log(element);
-    // });
+    const mealIngredients = document.getElementById("meal-ingredients");
+
+    for(let i = 1; meal[`strIngredient${i}`]; i++){
+        const ingredients =`
+        ✔ ${meal[`strMeasure${i}`]} ${meal[`strIngredient${i}`]}
+        `;
+
+        const ingredientsP = document.createElement('p');
+        ingredientsP.innerText = ingredients;
+        mealIngredients.appendChild(ingredientsP);
+    }
     const x = meal.strIngredient1;
     const y = meal.strMeasure1;
     console.log(y,x);
