@@ -29,7 +29,14 @@ a{
 .card-body{
     background-color: #F8F7F5;
 }
-
+.cursor {
+    cursor: pointer;
+  }
+#meal-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
 /* #show-search-item , #show-search-item a{
     border: 1px solid black;
     padding: 5px;
